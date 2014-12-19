@@ -316,10 +316,10 @@ public class Scanner extends Thread {
 	 * *******************************************
 	 */
 	private static Connection connection = null;
-	public static final String DEFAULT_DBHOST = "trustsec-svc.cisco.com";
+	public static final String DEFAULT_DBHOST = "your.local.com";
 	private static final String DATABASE = "IPAddresses";
-	private static final String DBUSER = "trustsecauto";
-	private static final String DBPASS = "npfUser";
+	private static final String DBUSER = "dbuser";
+	private static final String DBPASS = "dbpass";
 
 	/**
 	 * This will perform a lookup of the specified ip address. The ip address is
